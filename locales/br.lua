@@ -222,6 +222,8 @@ Locales['br'] = {
   ['primary'] = 'primário',
   ['secondary'] = 'secundário',
   ['pearlescent'] = 'perolado',
+  ['dashboard'] = 'painel',
+  ['interior'] = 'interior',
   -- Misc
   ['headlights'] = 'faróis dianteiros',
   ['licenseplates'] = 'matricula',
