@@ -244,6 +244,7 @@ Locales['pl'] = {
   ['tuning'] = 'tuner',
   ['motorcycle'] = 'motocykle',
   ['highend'] = 'high end',
+  ['tyres'] = 'Niestandardowe opony',
 
   ['modplateholder'] = 'tablica - Tył',
   ['modvanityplate'] = 'tablica - Przód',

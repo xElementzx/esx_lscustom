@@ -190,7 +190,7 @@ function GetAction(data)
 
 			if v.modType then
 				
-				if v.modType == 22 then
+				if v.modType == 22 or v.modType == 'modTyres' then
 					table.insert(elements, {label = " " .. _U('by_default'), modType = k, modNum = false})
 				elseif v.modType == 'neonColor' or v.modType == 'tyreSmokeColor' then -- disable neon
 					table.insert(elements, {label = " " ..  _U('by_default'), modType = k, modNum = {0, 0, 0}})
@@ -232,6 +232,15 @@ function GetAction(data)
 					else
 						price = math.floor(vehiclePrice * v.price / 100)
 						_label = _U('neon') .. ' - <span style="color:green;">$' .. price .. ' </span>'
+					end
+					table.insert(elements, {label = _label, modType = k, modNum = true})
+				elseif v.modType == 'modTyres' then -- CUSTOMTYRES
+					local _label = ''
+					if currentMods.modTyres then
+						_label = _U('tyres') .. ' - <span style="color:cornflowerblue;">'.. _U('installed') ..'</span>'
+					else
+						price = math.floor(vehiclePrice * v.price / 100)
+						_label = _U('tyres') .. ' - <span style="color:green;">$' .. price .. ' </span>'
 					end
 					table.insert(elements, {label = _label, modType = k, modNum = true})
 				elseif v.modType == 'neonColor' or v.modType == 'tyreSmokeColor' then -- NEON & SMOKE COLOR

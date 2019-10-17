@@ -244,6 +244,7 @@ Locales['br'] = {
   ['tuning'] = 'tuning',
   ['motorcycle'] = 'motociclo',
   ['highend'] = 'high end',
+  ['tyres'] = 'pneus personalizados',
 
   ['modplateholder'] = 'placa - atrás',
   ['modvanityplate'] = 'placa - frente',

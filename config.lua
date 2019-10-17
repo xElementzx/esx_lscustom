@@ -672,7 +672,8 @@ Config.Menus = {
 		parent = 'cosmetics',
 		modFrontWheelsTypes = _U('wheel_type'),
 		modFrontWheelsColor = _U('wheel_color'),
-		tyreSmokeColor = _U('tiresmoke')
+		tyreSmokeColor = _U('tiresmoke'),
+		modTyres = _U('tyres')
 	},
 	modFrontWheelsTypes = {
 		label				= _U('wheel_type'),
@@ -745,6 +746,12 @@ Config.Menus = {
 	modFrontWheelsColor = {
 		label = _U('wheel_color'),
 		parent = 'wheels'
+	},
+	modTyres = {
+		label = _U('tyres'),
+		parent = 'wheels',
+		modType = 'modTyres',
+		price = 0.66
 	},
 	wheelColor = {
 		label = _U('wheel_color'),
