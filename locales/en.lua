@@ -193,6 +193,7 @@ Locales['en'] = {
   ['yellow_blue'] = 'yellow on blue',
   ['blue_on_white_2'] = 'blue on white 2',
   ['blue_on_white_3'] = 'blue on white 3',
+  ['yankton'] = 'yankton',
 -- Upgrades
   ['upgrades'] = 'upgrades',
   ['engine'] = 'engine',

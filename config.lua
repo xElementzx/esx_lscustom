@@ -436,6 +436,8 @@ function GetPlatesName(index)
 		return _U('blue_on_white_2')
 	elseif (index == 4) then
 		return _U('blue_on_white_3')
+	elseif (index == 5) then
+		return _U('yankton')
 	end
 end
 

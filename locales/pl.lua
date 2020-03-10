@@ -193,6 +193,7 @@ Locales['pl'] = {
   ['yellow_blue'] = 'żółte na niebieskim',
   ['blue_on_white_2'] = 'niebieskie na białym 2',
   ['blue_on_white_3'] = 'niebieskie na białym 3',
+  ['yankton'] = 'yankton',
 -- Upgrades
   ['upgrades'] = 'ulepszenia',
   ['engine'] = 'silnik',
