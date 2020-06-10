@@ -6,7 +6,8 @@ Config.IsMechanicJobOnly = false
 Config.Zones = {
 
 	ls1 = {
-		Pos   = { x = -337.38, y = -136.92, z = 38.57},
+--		Pos   = { x = -337.38, y = -136.92, z = 38.57},
+		Pos   = { x = 235.29, y = -783.93, z = 30.64},
 		Size  = {x = 3.0, y = 3.0, z = 0.2},
 		Color = {r = 204, g = 204, b = 0},
 		Marker= 1,
@@ -436,6 +437,8 @@ function GetPlatesName(index)
 		return _U('blue_on_white_2')
 	elseif (index == 4) then
 		return _U('blue_on_white_3')
+	elseif (index == 5) then
+		return _U('yankton')
 	end
 end
 
@@ -672,7 +675,8 @@ Config.Menus = {
 		parent = 'cosmetics',
 		modFrontWheelsTypes = _U('wheel_type'),
 		modFrontWheelsColor = _U('wheel_color'),
-		tyreSmokeColor = _U('tiresmoke')
+		tyreSmokeColor = _U('tiresmoke'),
+		modTyres = _U('tyres')
 	},
 	modFrontWheelsTypes = {
 		label				= _U('wheel_type'),
@@ -745,6 +749,12 @@ Config.Menus = {
 	modFrontWheelsColor = {
 		label = _U('wheel_color'),
 		parent = 'wheels'
+	},
+	modTyres = {
+		label = _U('tyres'),
+		parent = 'wheels',
+		modType = 'modTyres',
+		price = 0.66
 	},
 	wheelColor = {
 		label = _U('wheel_color'),

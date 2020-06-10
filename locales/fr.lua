@@ -244,6 +244,7 @@ Locales['fr'] = {
   ['tuning'] = 'Jantes Tuning',
   ['motorcycle'] = 'Jantes Moto',
   ['highend'] = 'Jantes Haut de gamme',
+  ['tyres'] = 'Pneus personnalisés',
 
   ['modplateholder'] = 'plaque - Arrière',
   ['modvanityplate'] = 'plate - Avant',
